@@ -6,7 +6,7 @@ const {
   isValid: enteredEmailisValid,
   isError: emailIsError,
   inputKeyStrockHandler: emailKeyStrockHandler,
-  InputBlurHandler: emailInputBlurHandler,
+  inputBlurHandler: emailInputBlurHandler,
   reset: resetEmailInput,
 } = useInput((value) => value.includes("@"));
 
@@ -15,7 +15,7 @@ const {
   isValid: enteredPasswordisValid,
   isError: passwordIsError,
   inputKeyStrockHandler: passwordKeyStrockHandler,
-  InputBlurHandler: passwordInputBlurHandler,
+  inputBlurHandler: passwordInputBlurHandler,
   reset: resetPasswordInput,
 } = useInput((value) => !(value.trim().length < 6));
 
