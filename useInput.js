@@ -21,7 +21,7 @@ const useInput = (validityChecker) => {
     isValid: enteredInputIsValid,
     isError,
     inputKeyStrockHandler,
-    InputBlurHandler,
+    inputBlurHandler,
     reset,
   };
 };
