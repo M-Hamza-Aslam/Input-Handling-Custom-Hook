@@ -1,2 +1,2 @@
 # Input-Handling-Custom-Hook
-A Custom hook to handle input and form handling.
+A Custom hook to handle input and form handling in React.js
