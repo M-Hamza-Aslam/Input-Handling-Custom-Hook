@@ -9,7 +9,7 @@ const useInput = (validityChecker) => {
   const inputKeyStrockHandler = (event) => {
     setInputValue(event.target.value);
   };
-  const InputBlurHandler = (event) => {
+  const inputBlurHandler = (event) => {
     setInputIsTouched(true);
   };
   const reset = () => {
